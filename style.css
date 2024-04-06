@@ -1,0 +1,389 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: #EEEDEB;
+    margin: 0%;
+    padding: 0%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar {
+    height: 60px;
+    justify-content: space-evenly;
+    background-color: #3C3633;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+/*.logo {
+    background-image: url("naukri.svg");
+    background-size: cover;
+    height: 60px;
+    width: 80px;
+}*/
+
+.border {
+    border: 2px solid transparent;
+}
+
+
+
+/* box2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+.search-input{
+    border-top-left-radius: 18px ;
+    border-bottom-left-radius: 18px;
+    padding-left: 20px;
+}
+
+
+/* box3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 18px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #222831;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-block: white;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/*box-4*/
+
+span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.87rem;
+}
+
+/* box-6 */
+
+.nav-linkedIn i {
+    font-size: 30px;
+    transition: 0.3s;
+}
+.nav-linkedIn:hover{
+    font-size: 40px;
+}
+.navbar a{
+    color: white;
+}
+.panel a{
+    color: white;
+}
+.nav-cart {
+    font-size: 0.85rem;
+}
+
+/* panel */
+
+.panel {
+    margin-top: 60px;
+    height: 40px;
+    background-color: #31363f;
+    display: flex;
+    color: white ;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 10px;
+
+}
+
+.panel-ops {
+    width: 80%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.prime {
+    background-color: white;
+    border-color: whitesmoke;
+    color: black;
+}
+
+.hero-section {
+    background-image: url(box1.jpg);
+    background-color: transparent;
+    background-size:contain;
+    background-attachment: fixed;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.hero-messagemain{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    /*background-color: #D4FFF2;*/
+    margin-top: 120px;
+    margin-right:240px;
+
+}
+.Introducing{
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.hero-image{
+    height: 150px;
+    width: auto;
+}
+
+.hero-message a {
+    color:#007185;
+}
+
+/*shop-section*/
+.shop-secton {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+}
+
+.box {
+    border-radius: 30px;
+    height: 350px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+.box-img:hover{
+        background-color: transparent;
+        height: 300px;     
+}
+
+
+
+
+a{
+    font-style: normal;
+    text-decoration: none;
+    color: #0f1111;
+}
+
+.box-img {
+    height: 280px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1 rem;
+    border-radius: 25px;
+    margin-left:10px ;
+    margin-right:10px ;
+    transition: widhth 0.3s, height 0.3s ;
+
+}
+
+.box-content {
+    margin: 1rem 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.titles{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.box-content a {
+    color: #007185;
+}
+
+.img-sec {
+    height: 250px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.long-img{
+    display: block;
+    text-align: center;
+}
+.foot{
+    z-index: 999;
+}
+.foot-panel1 {
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("kaam.svg");
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: -90px;
+  
+    
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.pages {
+    font-size: 0.7rem;
+
+}
+
+.copyright {
+    font-size: 0.75rem;
+
+}
+
+
+
+/*    Filters ------ */
+.main-menu{
+    display: flex;
+}
+
+.filter{
+    margin-top: 30px;
+    margin-left: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    z-index: 998;
+    height: 600px;
+    width: 150px;
+    border: 2px #dddddd solid;
+    border-radius: 20px;
+    background-color: #efededf0;
+    
+
+}
+
+.filter p{
+    margin-top: 18px;
+    font-size: 1.05rem;
+}
+
+.joblist{
+    margin-top: 50px;
+    margin-left: 120px;
+    
+}
+
+.job-job1{
+    margin-bottom: 20px ;
+    display: flex;
+    height: 150px;
+    width: 800px;
+    border: 2px #dddddd solid;
+    border-radius: 30px;
+
+
+}

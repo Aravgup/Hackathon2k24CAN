@@ -1,0 +1,58 @@
+body {
+   background-color: #3C3633;
+    margin: 0%;
+    padding: 0%;
+}
+.feedback-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 40px 50px black;
+}
+
+  .feedback-form h2 {
+    text-align: center;
+  }
+  
+  .feedback-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .feedback-form label {
+    margin-bottom: 5px;
+  }
+  
+  .feedback-form input,
+  .feedback-form textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .feedback-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .feedback-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logo {
+    background-image: url("kaam.svg");
+    background-size: cover;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    margin-left: -30px;
+    margin-top: -50px;
+    
+}
